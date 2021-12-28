@@ -1,0 +1,17 @@
+
+
+#tituloNav{
+	text-decoration-style: none;
+	background: -webkit-linear-gradient(#ff267a, #FFA634);
+	-webkit-background-clip:  text;
+	-webkit-text-fill-color: transparent;
+}
+
+#time{
+	color: white;
+	text-decoration-style: none;
+}
+
+#title{
+	color: white;
+}
