@@ -14,17 +14,44 @@
 
 #title{
 	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
 }
 
 .botaoadd{
-	background-color: #181818;
-	border-color: #181818;
+	margin-top: 150px;
+	background-color: #121214;
+	border-color: #121214;
 	color: white;
 	border: none;
 }
 
-.user1{
+#usuarios{
+	padding-top: 140px;
+}
+
+#nomeuser{
+	color: silver;
+	padding-top: 10px;
+}
+
+#user1{
 	background-color: red;
-	width: 60px;
-	height: 60px;
+	width: 120px;
+	height: 120px;
+	border-radius: 200%;
+}
+
+#user2{
+	background-color: blue;
+	width: 120px;
+	height: 120px;
+	border-radius: 200%;
+}
+
+#user3{
+	background-color: green;
+	width: 120px;
+	height: 120px;
+	border-radius: 200%;
 }
