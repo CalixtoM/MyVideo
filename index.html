@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- hora inicio -->
+		<script type="text/javascript">
+			function tempo() {
+				today = new Date();
+				h = today.getHours();
+				m = today.getMinutes();
+				s = today.getSeconds();
+				document.getElementById('txt').innerHTML=h+":"+m;
+				setTimeout('tempo()',500);
+			}
+		</script>
+	<!-- hora fim -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -12,19 +24,20 @@
 	<meta charset="utf-8">
 	<title>MyVideo</title>
 </head>
-<body style="background-color: #181818;">
+<body onload="tempo()" style="background-color: #181818;">
 
 	<nav class="navbar navbar-expand-lg" >
 		<div class="container-fluid">
 			<a class="navbar-brand" id="tituloNav" href="#"><b>MyVideo</b></a>
-			<a href="#" class="navbar-brand" id="time">11:55 PM</a>
+			<a href="#" class="navbar-brand" id="txt"></a>
 		</div>
 	</nav>
+
+
 
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-3">
-				
 			</div>
 			<div class="col-sm-6">
 				<center><h2 id="title">Bem-Vindo de volta ao MyVideo</h2></center>
