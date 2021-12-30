@@ -15,3 +15,16 @@
 #title{
 	color: white;
 }
+
+.botaoadd{
+	background-color: #181818;
+	border-color: #181818;
+	color: white;
+	border: none;
+}
+
+.user1{
+	background-color: red;
+	width: 60px;
+	height: 60px;
+}
