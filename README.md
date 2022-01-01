@@ -8,4 +8,4 @@ Screenshots:
 
 Realizei o relógio da tela inicial utilizando Javascript.
 
-## Projeto em Desenvolvimento!
+## Projeto em Desenvolvimento🛠️
